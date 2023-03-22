@@ -1,0 +1,663 @@
+.about-img{
+    width: 100%;
+  }
+.cancelbtn {
+  width: auto;
+  border-radius: 10px;
+  padding: 1px 16px;
+  background-color: #cc5d55;
+}
+
+/* Center the image and position the close button */
+.imgconta{
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.conta {
+  padding: 16px;
+}
+input[type=username], input[type=password],input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 18px;
+}
+.contan{
+  padding: 16px;
+}
+span.psw {
+  float: right;
+  padding-top: 4px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 0px;
+  top: -24px;
+  color: #000;
+  width: 30px;
+  height: 30px;
+  border-bottom-left-radius: 18px;
+background-color: rgb(160, 252, 221);
+}
+
+.close:hover,
+.close:focus {
+  background-color: red;
+  cursor: pointer;
+}
+.close1 {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  color: #000;
+  width: 30px;
+  height: 30px;
+  border-bottom-left-radius: 18px;
+background-color: rgb(160, 252, 221);
+}
+
+.close1:hover,
+.close1:focus {
+  background-color: red;
+  cursor: pointer;
+}
+
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+.navbar{
+    padding: 1% 5%;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    }
+p{
+  font-family: 'Cormorant Garamond', serif;
+font-weight: 600;}
+strong{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 900;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Roboto Slab', serif;
+}
+
+  .img-responsive{
+    display: block;
+    max-width: 100%; 
+    object-fit: cover;
+  }
+  .logo{
+  width: 22%;
+  }
+  .ms-auto{
+    margin-top: 2.2%;
+  }
+  .header{
+    color: white;
+    padding-top: 0.5%;
+    background-color: rgb(41, 41, 106);
+  }
+  
+  .h{
+    padding-top: 0.1%;
+padding-left: 1.5%;
+  }
+  .row-t{
+  --bs-gutter-x: 0rem;}
+  .heade{
+    padding-top: 0.5%;
+    padding-left: 4%;
+    line-height: 2;
+  }
+  
+  .dropdown2{
+    display: flex;
+  }
+ .input-group{
+  padding-left: 8%;
+ }
+  .thumbnail {
+    position: relative;
+    display: inline-block;
+    background-image: url("im.jpg");
+    width: 100%;
+  }
+  .sign{
+    padding-left: 8.6%;
+  }
+  .head-text{
+    position: relative;
+    display: inline-block;
+  }
+  
+  @media only screen and (max-width:900px){
+    .btn-group{
+      padding: 6% 0%;
+      width: 252px;
+      
+    }
+  }
+  
+  .navbar-toggler-icon {
+    width: 1em;
+    height: 1em}
+  .caption {
+    margin-top: 6%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+width: 48%; 
+    top: 30%;
+    left: 5%;
+    text-align: left;
+    color:rgb(7, 12, 73)
+  }
+
+
+  .nav-item{
+color: rgb(28, 14, 92);
+  }
+  .icons{
+    padding-top: 0.4%;
+    padding-left:6% ;
+  }
+  .social-icon{
+font-size: 130%;
+padding-left: 2%;  }
+  .title-b{
+    padding: 1% 2.5%;
+    background-color: rgb(50, 50, 103);
+    color:white;
+    width: 52%;
+      margin-top: 2.2%;
+      font-size: 2.4vmin;
+  }
+  .title-btn{
+    border-radius: 10px;
+
+    background-color: rgb(50, 50, 103);
+    color:white;
+  }
+  
+  .butn{
+    border-radius: 10px;
+    background-color: rgb(225, 151, 66);;
+    color: white;
+  }
+    .acc{
+    padding: 2% ;
+  }
+  @media only screen and (max-width:460px){
+    .acc{
+      padding: 0.1%;
+    }
+    .pp{
+      margin-bottom: 0.1%;
+    }
+  }
+  .title-bt{
+    width: 100%;
+    background-color: rgb(50, 50, 103);
+    color:white;
+  }
+  .input-group .btn {
+    position: inherit;
+}
+  .all{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width:100%;
+    background-color: white;
+    border-right: 0px;
+  }
+  .nav-link{
+    color: black;
+  }
+  #about{
+    padding: 4%;
+  }
+  .shado{
+    padding: 2% 8% 2% 4%;
+    margin-left: 4%;
+    margin-top: 2%;
+  box-shadow:  0 0 0 0px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  }
+  .flx{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #foot{
+    text-align: center;
+    padding:1% 11%;
+    background-color: black;
+    color: #ccc;
+    }
+    #last{
+        background-color:rgb(20, 20, 20);
+        color: #ccc;
+        padding: 3% 8%;
+      }
+    
+.box{
+    width: 342px;
+ border:1px solid rgb(192, 189, 189);
+ padding: 5% 3%;
+ text-align: center;
+ margin:2%;
+ font-size: small;
+}
+.box:hover{
+  color: aliceblue;
+  background-color: rgb(69, 69, 110);
+}
+.shado:hover{
+  color: aliceblue;
+  background-color: rgb(69, 69, 110);
+}
+.ico{
+font-size: 30px;
+padding-bottom: 15px;}
+.orth{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.doctors{
+  padding-top: 2%;
+  padding-bottom: 2%;
+width: 270px;
+height: 290px;
+object-fit: cover;
+
+}
+
+
+strong{
+    color: orange;
+}
+#mission{
+padding-top: 1%;
+padding-bottom: 4%;}
+.missions{
+    padding: 4%;
+    background-color: rgb(234, 216, 196);
+    border-radius: 2%;
+    width: 100%;   
+    margin-top: 4%; 
+}
+@media only screen and (min-width: 1000px){
+  .missions{position: absolute;
+  left:38%;
+width: 58%;}
+}
+@media only screen and (min-width: 1000px){
+  .missionimg{
+    width:550px;
+      height: 500px;
+      object-fit: cover;
+  }
+  .conta {
+    text-align: center;
+    padding: 16px 50px;
+  }
+  .modal-content{
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 1000px){
+  .missionimg{
+    width:300px;
+      height: 500px;
+      object-fit: cover;
+
+  }
+}
+.headin{
+  padding-left: 0%;
+  padding-top: 2%;
+  text-align: center;
+}
+@media only screen and (min-width: 1000px) {
+  .headin {
+    position: relative;
+  left:29%;
+  width: 43%;
+
+  }
+}
+label{
+  font-family: 'Roboto Slab', serif;
+
+}
+.heading{
+  padding-left: 0%;
+  padding-top: 2%;
+  text-align: center;
+}
+@media only screen and (min-width: 900px) {
+  .heading {
+    position: relative;
+  left:29%;
+  width: 38%;
+  }
+}
+p{
+  font-size: medium;
+}
+h2{
+  font-weight:900;
+}
+#shop,#project,#doctor,#news,#partners{
+padding: 1% 7%;
+}
+#doctor{
+  padding-bottom: 5%;
+}
+#services{
+  padding-top: 1%;
+  padding-left: 4.1%;
+}
+.price{
+  color: aquamarine;
+}
+.shopimg{
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+#project{
+background-color: black;}
+.project{
+  color: white;
+}
+.project-img{
+  border-radius:4% ;
+  width: 330px;
+  height: 250px;
+  padding-top: 4%;
+  object-fit: cover;
+}
+@media only screen and (max-width: 1000px){
+  .project-img{
+    width: 280px;px;
+      height: 250px;
+  }
+}
+
+@media only screen and (min-width: 1000px){
+  .navbar-nav{
+    width: 160%;
+  padding-right:23% ;
+}}
+.container-fluid{
+  display: flex;
+}
+.label{
+  background-color: white;
+  width: 268px;
+  height: 60px;
+  position: relative;
+  bottom: 6%;
+}
+.feedback-img{
+  height: 700px;
+  width:95%;
+  padding: 2% 0% 0% 0%;
+  object-fit: cover;
+}
+#feedback{
+  padding-top: 3%;
+}
+
+.feed{
+  text-align: center;
+  padding: 5%;
+  padding-top: 14%;
+}
+.partner{
+  padding: 4% 15% 0%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ic{
+  font-size: 60px;
+  color: skyblue;
+}
+.it{
+  padding-bottom:8% ;
+  font-size: 60px;
+  color: rgb(23, 6, 74);
+}
+.icon-text{
+  font-size: 16px;
+  color: darkblue;
+
+}
+.new{
+  width: 280px;
+  padding: 2%;
+  position: relative;
+  bottom: 28%;
+  color: azure;
+}
+.bug{
+  --bs-gutter-x: 0rem;
+}
+.sho{
+  padding: 2% 8% 2%;
+}
+.aboutim{
+width: 70%;
+height: 87%;
+position: relative;
+left: 25%;
+border-radius:60px 15px ;
+object-fit: cover;
+}
+.icn{
+  font-size: 60px;
+    padding-top: 6%;
+  position: absolute;
+  left:6%;
+}
+.icl{
+  padding-top: 18%;
+  position: absolute;
+  left:7%;
+  font-size: xx-large;
+}
+@media only screen and (max-width:1000px){
+  .icn{
+ font-size: 30px;
+  }
+  .icl{
+    padding-top: 100px;
+    font-size: 20px;
+  }
+  .icond{
+    font-size: 20px;
+    padding-left: 40%;
+    position:static;
+    top: 160%;
+  }
+}
+@media only screen and (min-width:1000px){
+  .ab{
+  margin-top: 3%;
+  padding-top: 21%;
+  width: 400px;
+  height:333px;
+  background-color: rgb(212, 158, 167);
+  border-radius:60px 15px ;
+  position: absolute;
+  left: 12%;
+}}
+
+
+.icond{
+  font-size: x-large;
+  position: absolute;
+  left: 45%;
+}
+.carp{
+  padding-top: 6%;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.caro-text{
+  font-size: small;
+}
+.fa-user-doctor{
+  padding-right: 10px;
+  font-size: large;
+}
+
+
+
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+  object-fit: cover;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.card-img-top{
+  padding: 1%;
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+}
+.ptag{
+background-color:rgb(210 175 180);
+}
+
+.box-shop:hover{
+box-shadow: 0 0 0 0px rgb(255 255 255), 0.3em 0.3em 1em rgb(0 0 0 / 30%);
+}
+.box-shop {
+  width: 267px;
+  border: 1px solid rgb(192, 189, 189);
+  padding: 2% 3%;
+  text-align: left;
+  margin: 0% 1%;
+  font-size: small;
+  background-color: rgb(236 238 242);
+}
+#shop1{
+  padding: 0% 5% 3%;
+}
+@media only screen and (min-width:1000px){
+.ptag{height: 30px; text-align: center; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px; border-top-left-radius: 15px;
+border-top-right-radius: 15px;}
+}

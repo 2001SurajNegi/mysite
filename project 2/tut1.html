@@ -1,0 +1,26 @@
+<!Doctype html>
+<html>
+<head>
+<title>
+javascript
+</title>
+</head>
+<body>
+  <h1>calculator</h1>
+  <script>
+    const operator =prompt('Enter operator ( either /, *, -, +):');
+    const number1 =parseFloat(prompt('enter first no. ='));
+    const number2 =parseFloat(prompt('enter first no. ='));
+let result;
+if (operator == '+')
+{result = number1 + number2;}
+else if (operator == '-')
+{result = number1 - number2;}
+else if(operator == '*')
+{result = number1 * number2;}
+else if(operator == '/')
+{result = number1/number2;}
+console.log(`${number1} ${operator} ${number2}= ${result}`);
+  </script>  
+</body>
+</html>
